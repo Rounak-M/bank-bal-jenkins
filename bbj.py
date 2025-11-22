@@ -5,8 +5,8 @@ try:
         print("Usage: python bbj.py <initial> <deposit>")
         sys.exit(1)
     
-    initial = float(args[0])
-    deposit = float(args[1])
+    initial = float(argv[0])
+    deposit = float(argv[1])
 
     updated= initial + deposit
 
